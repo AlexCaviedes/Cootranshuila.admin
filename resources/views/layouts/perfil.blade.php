@@ -44,9 +44,9 @@
         <div class="card-body">
             <div class="form-group">
                 <h5 class="card-title">Usuario: {{ \Auth::user()->name }}</h5>
-                <h5 class="card-title">Identificacion: {{ \Auth::user()->identificacion }}<h5></p>
-                <h5 class="card-title">Email: {{ \Auth::user()->email }}<h5></p>
-                <h5 class="card-title">Estado usuario: {{ \Auth::user()->estado }}<h5></p>
+                <h5 class="card-title">Identificacion: {{ \Auth::user()->identificacion }}<h5>
+                <h5 class="card-title">Email: {{ \Auth::user()->email }}<h5>
+                <h5 class="card-title">Estado usuario: {{ \Auth::user()->estado }}<h5>
             </div>
             {{--<div class="form-group">
                 <label class="d-block">Total Expenses <span class="float-right">50%</span></label>
